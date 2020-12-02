@@ -1,0 +1,65 @@
+header.primary {
+    text-align: center;
+     padding: 6em 2em;
+  position: relative;
+  background-color: grey;
+}
+body {
+    background-color: grey;
+}
+
+.img-right {
+  float: right;
+  margin: 10px 0 10px 20px;
+  padding: 5px;
+}
+
+.img-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+  padding: 5px;
+}
+
+.img-center {
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+}
+header.primary h1 {
+    margin: 20px;
+    position: relative;
+    color:white;
+}
+header.primary nav ul {
+    flex-direction: row;
+    display: flex;
+      justify-content: center;
+    position: relative;
+  margin: 20px auto; 
+
+}
+header.primary nav li {
+  list-style-type: none;
+  margin: 20px 20px 20px 20px;
+}
+header.primary nav a:link,
+header.primary nav a:visited {
+color: white;
+text-decoration: none;
+}
+header.primary h2 {
+    text-align: center;
+    color:white;
+}
+section#information {
+    color:white;
+}
+section#about {
+    color:white;
+}
+section#history {
+    color: white;
+}
+section#faq {
+    color: white;
+}
