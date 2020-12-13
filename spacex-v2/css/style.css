@@ -3,10 +3,18 @@ header.primary {
      padding: 6em 2em;
   position: relative;
   background-color: grey;
+  font-family: Noto Serif JP;
 }
 body {
     background-color: grey;
+    font-family: Noto Serif JP;
 }
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
 
 .img-right {
   float: right;
@@ -35,45 +43,70 @@ header.primary nav ul {
     display: flex;
       justify-content: center;
     position: relative;
-  margin: 20px auto; 
+  
 
 }
 header.primary nav li {
   list-style-type: none;
   margin: 20px 20px 20px 20px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition: 0.6s;
+  display: block;
+
 }
 header.primary nav a:link,
 header.primary nav a:visited {
 color: white;
-text-decoration: none;
+  text-decoration: none;
+  background-color: #000000;
+  background-color: rgba(142, 166, 184, 0.4);
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+font-family: Noto Serif JP;
+
 }
 header.primary h2 {
     text-align: center;
     color:white;
 }
+section#articles {
+    color:white;
+    font-family: Noto Serif JP;
+}
+
 section#information {
     color:white;
+    font-family: Noto Serif JP;
 }
 section#about {
     color:white;
+    font-family: Noto Serif JP;
 }
 section#history {
     color: white;
+    font-family: Noto Serif JP;
 }
 section#faq {
     color: white;
+    font-family: Noto Serif JP;
 }
 h3{
 text-decoration: underline;
 text-decoration: bold;
+font-family: Noto Serif JP;
 }
 h2{
 text-decoration: underline;
 text-decoration: bold;
+font-family: Noto Serif JP;
 }
 h4{
 text-decoration: underline;
 text-decoration: bold;
+font-family: Noto Serif JP;
 }
 .gallery {
 	background-color: #CCC;
@@ -111,4 +144,8 @@ text-decoration: bold;
 .img-DragonV2interior2 {
     width:540px; 
     height: 486px;
+}
+.img-Logo {
+    width: 500px;
+    height: auto;
 }
